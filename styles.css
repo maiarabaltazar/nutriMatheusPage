@@ -49,6 +49,18 @@ body {
   object-fit: cover;
 }
 
+.content-block {
+  padding-right: 28px;
+}
+
+.image-block {
+  padding-left: 28px;
+}
+
+.section-media {
+  margin-top: 24px;
+}
+
 .carousel-image {
   display: flex;
   justify-content: center;
@@ -247,8 +259,9 @@ footer {
     text-align: center;
   }
 
-  .hero-card {
-    margin-top: 24px;
+  .content-block,
+  .image-block {
+    padding: 0;
   }
 }
 
