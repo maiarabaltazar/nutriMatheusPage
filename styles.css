@@ -29,7 +29,7 @@ body {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   opacity: 1;
-  color: var(--beige);
+  color: var(--accent);
 }
 
 .hero-section {
@@ -42,6 +42,16 @@ body {
   padding: 24px;
   border-radius: 24px;
   backdrop-filter: blur(8px);
+}
+
+.hero-photo {
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.image-card img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .section-title {
@@ -59,6 +69,10 @@ body {
 }
 
 .text-accent {
+  color: var(--accent);
+}
+
+.text-beige {
   color: var(--beige);
 }
 
@@ -183,6 +197,11 @@ body {
 
 .metric-card ul {
   padding-left: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
 }
 
 .contact-card,
