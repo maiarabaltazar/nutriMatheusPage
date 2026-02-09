@@ -9,7 +9,7 @@
 body {
   font-family: "Segoe UI", sans-serif;
   color: var(--text);
-  background-color: #ffffff;
+  background: linear-gradient(180deg, #081134 0%, #081134 65%, #60000f 100%);
 }
 
 .navbar {
@@ -42,6 +42,7 @@ body {
   height: auto;
   max-height: 420px;
   object-fit: cover;
+  object-position: top center;
   margin: 0 auto;
 }
 
@@ -49,6 +50,7 @@ body {
   width: 100%;
   max-height: 360px;
   object-fit: cover;
+  object-position: top center;
 }
 
 .content-block {
@@ -74,6 +76,10 @@ body {
   max-height: 520px;
 }
 
+section {
+  background-color: rgba(8, 17, 52, 0.03);
+}
+
 .section-title {
   color: var(--primary);
   font-weight: 700;
@@ -85,7 +91,7 @@ body {
 }
 
 .section-light {
-  background-color: var(--light);
+  background-color: rgba(8, 17, 52, 0.06);
 }
 
 .text-accent {
