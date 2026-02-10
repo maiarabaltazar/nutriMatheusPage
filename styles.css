@@ -55,6 +55,11 @@ body {
    ========================================= */
 
 /* --- Buttons --- */
+
+#topoContato {
+  align-items: center;
+}
+
 .btn-primary {
   background-color: var(--accent);
   border-color: var(--accent);
